@@ -2,7 +2,7 @@
     <div class="list row">
       
       <div class="col-md-6">
-        <h4>Tutorials List</h4>
+        <h4>Students List</h4>
         <ul class="list-group">
           <li class="list-group-item"
             :class="{ active: index == currentIndex }"
