@@ -6,18 +6,18 @@
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" class="form-control" id="name"  minlength="6"
-      maxlength="6" required v-model="student.name" name="name" />
+      maxlength="16" required v-model="student.name" name="name" />
 
       </div>
       <div class="form-group">
         <label for="email">email</label>
-        <input class="form-control" type="email" id="email" @change="validEmail" required v-model="student.email"
+        <input class="form-control" type="email" id="email"  required v-model="student.email"
           name="email" />
 
       </div>
 
       <br />
-      <p>gender is male or female></p>
+      <p>gender is male or female</p>
       <div class="form-group">
         <label for="gender">Gender</label>
         <input class="form-control" type="gender" id="gender" pattern="male|female" required v-model="student.gender"
